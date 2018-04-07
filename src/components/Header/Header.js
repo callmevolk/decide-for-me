@@ -16,7 +16,7 @@ const header = () => {
         style={{textAlign: 'center', backgroundColor: indigo400}}
         title={<span>Decide for me</span>}
         iconElementLeft={
-          <a href="" className="github-link">
+          <a href="https://github.com/siberianLvolk/decide-for-me" className="github-link">
             <i className="material-icons material-icons-git">code</i>
           </a>
         }
