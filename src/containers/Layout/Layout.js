@@ -63,7 +63,7 @@ const layout = (props) => (
               label="DECIDE FOR ME" 
               onClick={context.toggleOpen}
               backgroundColor={indigo400}
-              style={{width: "50%", margin: '15px auto 0 auto'}}
+              style={{width: "250px", margin: '15px auto 0 auto'}}
               labelStyle={{fontSize: "20px"}}
             />
           )}
