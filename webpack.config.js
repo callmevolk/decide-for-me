@@ -3,7 +3,7 @@ const path = require('path');
 module.exports = {
   entry: './src/index.js',
   output: {
-    path: path.join(__dirname, 'docs'),
+    path: path.join(__dirname, 'public'),
     filename: 'bundle.js'
   },
   module: {
@@ -23,6 +23,6 @@ module.exports = {
   },
   devtool: 'cheap-module-eval-source-map',
   devServer: {
-    contentBase: path.join(__dirname, 'docs')
+    contentBase: path.join(__dirname, 'public')
   }
 };
