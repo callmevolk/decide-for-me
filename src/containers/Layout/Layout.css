@@ -1,0 +1,27 @@
+.Paper {
+  display: flex;
+  flex-direction: column;
+  width: 900px;
+  margin: 50px auto;
+  padding: 15px;
+}
+
+.material-icons-delete {
+  color: grey;
+}
+
+.material-buttons {
+  position: absolute;
+  right: 0;
+  margin-bottom: 55px;
+}
+
+.material-icons-delete:hover, .material-icons-delete:active {
+  color: #ED4337;
+}
+
+@media (max-width: 1024px) {
+  .Paper {
+    width: 90%;
+  }
+}

@@ -1,0 +1,10 @@
+.OptionForm {
+  display: flex;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  justify-content: center;
+}
+
+.TextField {
+  flex-basis: 90%;
+}
